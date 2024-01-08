@@ -7,7 +7,7 @@ function JournalList({items}) {
 		return <p>Записей пока нет, добавьте первую</p>;
 	}
 	const sortItems = (a,b) => {
-		if (a.date < b.date) {
+		if (a.date > b.date) {
 			return 1;
 		} else {
 			return -1;
