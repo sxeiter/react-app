@@ -2,7 +2,7 @@ import './LeftPanel.css';
 
 function LeftPanel({children}) {
 	return (
-		<div className='Left-panel'>
+		<div className='left-panel'>
 			{children}
 		</div>
 	);
